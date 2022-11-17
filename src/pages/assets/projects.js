@@ -27,10 +27,10 @@ function Website1() {
                     <Col sm={12} lg={3}>
                         <h2 className="Tab-heading">Long Cut Landscaping</h2>
                         <a href="http://www.longcutlandscaping.com/" target="_blank" rel="noreferrer noopener"><h5>Check it out here!</h5></a>
-                            <p className="Tab-content">Web Design</p>
-                            <p className="Tab-content">Google Indexing</p>
-                            <p className="Tab-content">AWS Hosting</p>
-                            <p className="Tab-content">AWS Simple Email Service</p>
+                            <p className="Tab-list">Web Design</p>
+                            <p className="Tab-list">Google Indexing</p>
+                            <p className="Tab-list">AWS Hosting</p>
+                            <p className="Tab-list">AWS Simple Email Service</p>
                         
                         
                     </Col>
@@ -68,13 +68,13 @@ function Website2() {
                     <Col sm={12} lg={8}>
                         <img className="d-block w-100 Tab-image" src={Soul1 } alt="Soulcentered1"/>
                     </Col>
-                    <Col sm={12} lg={3}>
+                    <Col sm={12} lg={3} className="Tab-content">
                         <h2 className="Tab-heading">Soul Centered</h2>
                         <a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener"><h5>Check it out here!</h5></a>
-                            <p className="Tab-content">Wordpress and Woocommerce</p>
-                            <p className="Tab-content">SEO Optimization</p>
-                            <p className="Tab-content">Plugins</p>
-                            <p className="Tab-content">Web Design</p>
+                            <p className="Tab-list">Wordpress and Woocommerce</p>
+                            <p className="Tab-list">SEO Optimization</p>
+                            <p className="Tab-list">Plugins</p>
+                            <p className="Tab-list">Web Design</p>
                             
                     </Col>
                 </Row>

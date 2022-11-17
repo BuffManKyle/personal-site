@@ -33,14 +33,18 @@
 
 .Tab-image{
     border-color: #fff;
-    border-radius: 1;
+    border-radius: 5px;
     border-width: 10%;
     border-style: solid;
     margin: 3% 0;
 }
 
-.Tab-content{
+.Tab-list{
     margin: 0;
+}
+
+.Tab-content{
+
 }
 
 .Tab-mobile-display{
@@ -49,10 +53,12 @@
 
 .Tab-longcut{
     background-color: #3F7802!important;
+    border-radius: 5px;
 }
 
 .Tab-soulcentered{
     background-color: #1C9AD6 !important;
+    border-radius: 5px;
 }
 
 

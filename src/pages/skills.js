@@ -9,28 +9,31 @@ function Resume() {
                             <h2 className="h2-gradient">Background</h2>
                         </Col>
                     </Row>
-                    <Row  className="text-center">
-                        <Col sm={12} lg={6}>
+                    <Container className="">
+                    <Row  className="justify-content-around">
+                        <Col className="text-center shadows p-3 mb-5 rounded" sm={12} lg={5}
+>
                             <h3 className="">Education</h3>
-                            <h5>Bachelore of Science in Comunication Studies - Minor of Business</h5>
+                            <h5>Bachelore of Science in Comunication Studies - Minor in Business</h5>
                             <p>Towson University, Towson MD (August 2021)</p>
                             
                         </Col>
-                        <Col sm={12} lg={6}>
+                        <Col className="text-center shadows p-3 mb-5 rounded"  sm={12} lg={5}>
                             <h3>Programing Languages and Frameworks</h3>
                             <h5 className="skill-list">JavaScript, CSS, HTML, Nodejs, Python, React, Express.js, Bootstrap</h5>
                            
                         </Col>
-                        <Col sm={12} lg={6}>
+                        <Col className="text-center shadows p-3 mb-5 rounded"  sm={12} lg={5}>
                             <h3>Programs</h3>
                             <h5 className="skill-list">Amazon Web Services (AWS), EC2, Git, GitHub, Microsoft Office, WordPress, WooCommerce </h5>
                             
                         </Col>
-                        <Col sm={12} lg={6}>
+                        <Col className="text-center shadows p-3 mb-5 rounded" sm={12} lg={5}>
                             <h3 className="">Operating System</h3>
                             <h5>Windows OS</h5>
                         </Col>
                     </Row>
+                    </Container>
                 </Container>
     );
 }
