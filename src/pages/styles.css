@@ -135,8 +135,8 @@ hr{
     #home{
         padding-top: 15%;
     }
-    .home-name{
-        font-size: 60% !important ;
+    .home-name, .home-name-intro{
+        font-size: 270% !important ;
     }
     .hide-on-mobile{
         display: none;

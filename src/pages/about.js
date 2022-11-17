@@ -8,7 +8,7 @@ function About() {
 
     const [showMore, setShowMore] = useState(false);
 
-    const text = "I graduated from Towson University in Summer 2021 with a Bachelor's Degree in Communication Studies. Through my interest in video games, I discovered 3D graphic designs. Using Blender I created a few animations, landscapes, and simple assets. I later discovered Python which I used for a short time to program a discord bot with basic functions. Looking for other projects to work on, I looked into web design. I found that I could take courses on Udemy to gain a quick understanding of the many languages used such as Javascript, HTML, and CSS. The first course I completed was on full stack development. With hopes to do full stack, I am currently doing the front end web development while practicing more with back end development. I am currently working on a few web pages to fill my portfolio."
+    const text = "I graduated from Towson University in the summer of 2021 with a Bachelor's Degree in Communication Studies. Through my interest in video games, I discovered 3D graphic designs. Using Blender, I created a few animations, landscapes, and simple assets. I later discovered Python, which I used for a short time to program a Discord bot with basic functions. Looking for other projects to work on, I looked into web development. With hopes of doing full stack, I am currently doing front-end web development while practicing more with back-end development. I have been able to develop websites and push them into production, all by teaching myself."
 
 
     return (
