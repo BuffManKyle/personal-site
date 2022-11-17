@@ -1,0 +1,63 @@
+/*Tab features*/
+.nav-link{
+    background-color: none;
+    border-radius: .5rem;
+    margin-bottom: 1%;
+    font-size: 1.5em;
+
+}
+
+.nav-link:hover{
+    background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1) !important;
+    color: #fff !important;
+}
+
+.nav-link.active{
+    background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1) !important;
+    color: #fff !important;
+}
+
+.Tab-heading{
+    margin: 5% 0;
+    color: #fff;
+}
+
+.Card-css{
+    background-color: #333333;
+}
+
+.card-header, .card{
+    border: none;
+    padding-bottom: 2%;
+}
+
+.Tab-image{
+    border-color: #fff;
+    border-radius: 1;
+    border-width: 10%;
+    border-style: solid;
+    margin: 3% 0;
+}
+
+.Tab-content{
+    margin: 0;
+}
+
+.Tab-mobile-display{
+    height: 20px;
+}
+
+.Tab-longcut{
+    background-color: #3F7802!important;
+}
+
+.Tab-soulcentered{
+    background-color: #1C9AD6 !important;
+}
+
+
+
+ a{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}

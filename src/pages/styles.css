@@ -1,0 +1,145 @@
+/*Font Links*/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Zilla+Slab:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Class Selectors*/
+
+.Body-css{
+    background-color: #333333;
+}
+
+.Contact-form input, textarea{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+    border-radius: 0px;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+    color: #D16BA5;
+}
+
+.home-space{
+    padding: 9.5% 0 8% 0;
+}
+
+.home-name{
+    
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+}
+
+.home-name-intro{
+    color: #fff !important;
+}
+
+.sections{
+    margin-bottom: 11%;
+}
+
+.Contact-button{
+    background: white !important;
+    border: none !important;
+    color: #D16BA5 !important;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.Contact-button:hover{
+   color: #fff !important;
+    background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1) !important;
+}
+
+
+
+
+
+/*Element Selectors*/
+
+h1{
+    font-size: 4.5em !important; 
+    font-weight: 600;
+}
+
+.h2-gradient{
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+    font-size: 2.6em;
+    padding-bottom: 2%;
+}
+
+h4, h3{
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+    padding-bottom: 0.08%;
+    
+}
+
+h5{
+    font-family: 'Archivo', sans-serif;
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
+
+hr{
+    border:1px solid #fff !important;
+}
+
+
+
+/*ID Tags*/
+
+#home{
+    padding-top: 4%;
+}
+
+
+/*Media query*/
+@media (min-width:480px) {
+    .hide-on-desktop{
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    #home{
+        padding-top: 15%;
+    }
+    .home-name{
+        font-size: 60% !important ;
+    }
+    .hide-on-mobile{
+        display: none;
+    }
+    
+}

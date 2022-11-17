@@ -1,0 +1,71 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 3% 0;
+}
+
+.Nav-Offcanvas{
+    background-color: #333333;
+}
+
+.Brand-name{
+    background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-right: 7rem;
+}
+
+.Brand-name:hover{
+    color: #fff;
+}
+.nav-item{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.nav-item a{
+    color: #D16BA5;
+    text-decoration: none;
+   }
+
+.nav-item:hover{
+    color: #D16BA5;
+}
+
+
+.icon-Nav{
+    color: #fff;
+    font-size: 1.7em;
+    padding: 0 10% 0 0;
+}
+
+.icon-Nav:hover {
+    color: #D16BA5;
+}
+
+.Nav-offcanvas{
+    font-size: 175%;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+}
+
+.Nav-offcanvas:hover{
+    color: #D16BA5;
+}
+
+@media (max-width:480px){
+    .Brand-name{
+        padding: 0 4.2em 0 0;
+    }
+}
