@@ -12,7 +12,7 @@ li {
     background-color: #333333;
 }
 
-.Brand-name{
+.Brand-name-nav, .Brand-name-offcanvas{
     background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1);
     -webkit-background-clip: text;
     background-clip: text;
@@ -65,7 +65,10 @@ li {
 }
 
 @media (max-width:480px){
-    .Brand-name{
+    .Brand-name-offcanvas{
         padding: 0 3.99em 0 0;
+    }
+    .Brand-name-nav{
+        padding: 0;
     }
 }

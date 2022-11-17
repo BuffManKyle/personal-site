@@ -31,7 +31,7 @@ const toggleOffCanvas = () => {
               >
                 <Offcanvas.Header className="Nav-Offcanvas">
                   <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                    <Navbar.Brand className="Brand-name" href="/">Kyle Katzenmaier</Navbar.Brand>
+                    <Navbar.Brand className="Brand-name-offcanvas" href="/">Kyle Katzenmaier</Navbar.Brand>
                     <button className="Nav-offcanvas" onClick={toggleOffCanvas}><FontAwesomeIcon icon={faDoorOpen} /></button>
                   </Offcanvas.Title>
                 </Offcanvas.Header>
@@ -65,7 +65,7 @@ const toggleOffCanvas = () => {
                 </Offcanvas.Body>
               </Navbar.Offcanvas>
               <Col lg={11} >
-              <Navbar.Brand className="Brand-name"  href="/">Kyle Katzenmaier</Navbar.Brand>
+              <Navbar.Brand className="Brand-name-nav"  href="/">Kyle Katzenmaier</Navbar.Brand>
               </Col>
               
             </Container>
