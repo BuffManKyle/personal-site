@@ -33,6 +33,8 @@ function Contact() {
                 <Row>
                     <Col sm={12} lg={6}>
                         <h5>Looking for a custom website or help with your current website? Let me know how I can help you today!</h5>
+                        <h4>Like what you see? Let's talk:</h4>
+                        <h5><a className="email-link" target="_blank" rel="noopener noreferrer" href="mailto: kylekatzenmaier@gmail.com">kylekatzenmaier@gmail.com</a></h5>
                     </Col>
                     <Col>
                         <div className='Contact-form'>

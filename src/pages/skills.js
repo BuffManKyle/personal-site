@@ -17,14 +17,14 @@ function Resume() {
                             
                         </Col>
                         <Col sm={12} lg={6}>
-                            <h3 className="">Programing Languages and Frameworks</h3>
-                            <h5>JavaScript, CSS, HTML, Nodejs, Python, </h5>
-                            <h5>React, Express.js, Bootstrap</h5>
+                            <h3>Programing Languages and Frameworks</h3>
+                            <h5 className="skill-list">JavaScript, CSS, HTML, Nodejs, Python, React, Express.js, Bootstrap</h5>
+                           
                         </Col>
                         <Col sm={12} lg={6}>
-                            <h3 className="">Programs</h3>
-                            <h5>Amazon Web Services (AWS), EC2, Git, GitHub, Microsoft Office, </h5>
-                            <h5> WordPress, WooCommerce</h5>
+                            <h3>Programs</h3>
+                            <h5 className="skill-list">Amazon Web Services (AWS), EC2, Git, GitHub, Microsoft Office, WordPress, WooCommerce </h5>
+                            
                         </Col>
                         <Col sm={12} lg={6}>
                             <h3 className="">Operating System</h3>

@@ -75,6 +75,7 @@ function Website2() {
                             <p className="Tab-content">SEO Optimization</p>
                             <p className="Tab-content">Plugins</p>
                             <p className="Tab-content">Web Design</p>
+                            
                     </Col>
                 </Row>
                 <Row>
@@ -110,7 +111,7 @@ function Blenderwork() {
                     </Col>
                     <Col sm={12} lg={3}>
                         <h2 className="Tab-heading">Blender Projects</h2>
-                            <p className="Tab-content">Wordpress and Woocommerce</p>
+                            <p className="Tab-content"></p>
                     </Col>
                 </Row>
 
