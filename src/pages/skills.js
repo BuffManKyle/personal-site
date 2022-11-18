@@ -14,7 +14,7 @@ function Resume() {
                         <Col className="text-center shadows p-3 mb-5 rounded" sm={12} lg={5}
 >
                             <h3 className="">Education</h3>
-                            <h5>Bachelore of Science in Comunication Studies - Minor in Business</h5>
+                            <h5>Bachelor of Science in Comunication Studies - Minor in Business</h5>
                             <p>Towson University, Towson MD (August 2021)</p>
                             
                         </Col>
