@@ -11,7 +11,7 @@ function Portfolio() {
 
     const [show1, setShow1] = useState(false);
     const [show2, setShow2] = useState(false);
-    const [show3, setShow3] = useState(true);
+    const [show3, setShow3] = useState(false);
 
     const handleClose1 = () => setShow1(false);
     const handleClose2 = () => setShow2(false);
