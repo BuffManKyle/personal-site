@@ -12,10 +12,11 @@
     color: #fff !important;
 }
 
-.nav-link.active{
+.nav-link.active, .nav-link:visited{
     background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1) !important;
     color: #fff !important;
 }
+
 
 .Offcanvas-portfolio-mobile{
     background-color: #333333;
@@ -48,10 +49,6 @@
     padding-bottom: 5%;
 }
 
-.Tab-content{
-
-}
-
 .Tab-mobile-display{
     height: 20px;
 }
@@ -80,11 +77,11 @@
     border-color: #fff;
 }
 
-.Portfolio-button a{
+.Portfolio-button a, a:visited{
     color: #D16BA5;
     text-decoration: none;
 }
 
-.Portfolio-button a:hover{
+.Portfolio-button a:hover, a:visited{
     color: #fff;
 }
