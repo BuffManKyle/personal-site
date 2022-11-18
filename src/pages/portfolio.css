@@ -74,7 +74,7 @@
 }
 
 .Portfolio-button:hover{
-    color: #fff !important;
+    color: #fff;
     background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1) !important;
     border-color: #fff;
 }
