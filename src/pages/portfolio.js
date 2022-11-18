@@ -64,7 +64,7 @@ function Portfolio() {
                     <h2 className="text-center h2-gradient">Portfolio</h2>
                 <Nav variant="pills" className="flex-column" onClick={handleShow1} >
                     <Nav.Item className="Nav-tab">
-                    <Nav.Link activeclassname="active" eventKey="first">Long Cut Landscaping</Nav.Link>
+                    <Nav.Link eventKey="first">Long Cut Landscaping</Nav.Link>
                     </Nav.Item>
                 </Nav>
 
