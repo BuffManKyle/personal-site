@@ -4,6 +4,7 @@
     border-radius: .5rem;
     margin-bottom: 1%;
     font-size: 1.5em;
+    
 
 }
 
@@ -12,10 +13,11 @@
     color: #fff !important;
 }
 
-.nav-link.active, .nav-link:visited{
+.nav-link.active{
     background: linear-gradient(90deg, #D16BA5 30%, #86A8E7, #5FFBF1) !important;
     color: #fff !important;
 }
+
 
 
 .Offcanvas-portfolio-mobile{
@@ -77,11 +79,12 @@
     border-color: #fff;
 }
 
-.Portfolio-button a, a:visited{
+.Portfolio-button a {
     color: #D16BA5;
     text-decoration: none;
 }
 
-.Portfolio-button a:hover, a:visited{
+.Portfolio-button a:hover{
     color: #fff;
 }
+

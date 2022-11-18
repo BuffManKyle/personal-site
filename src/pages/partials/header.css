@@ -48,6 +48,10 @@ li {
     color: #D16BA5;
 }
 
+.nav-item a:visited{
+    color: #D16BA5;
+}
+
 
 .icon-Nav{
     color: #fff;
