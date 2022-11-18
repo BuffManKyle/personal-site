@@ -4,8 +4,6 @@
     border-radius: .5rem;
     margin-bottom: 1%;
     font-size: 1.5em;
-    
-
 }
 
 .nav-link:hover{
@@ -18,7 +16,9 @@
     color: #fff !important;
 }
 
-
+.nav-item a:visited, a:link{
+    color: #D16BA5;
+}
 
 .Offcanvas-portfolio-mobile{
     background-color: #333333;
