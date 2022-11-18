@@ -64,11 +64,11 @@ function Portfolio() {
                     <h2 className="text-center h2-gradient">Portfolio</h2>
                 <Nav variant="pills" className="flex-column" onClick={handleShow1} >
                     <Nav.Item className="Nav-tab">
-                    <Nav.Link eventKey="first">Long Cut Landscaping</Nav.Link>
+                    <Nav.Link>Long Cut Landscaping</Nav.Link>
                     </Nav.Item>
                 </Nav>
 
-                <Offcanvas className="Offcanvas-portfolio-mobile" eventKey="first" show={show1} onHide={handleClose1}>
+                <Offcanvas className="Offcanvas-portfolio-mobile" show={show1} onHide={handleClose1}>
                     <Offcanvas.Header>
                     <Offcanvas.Title></Offcanvas.Title>
                     <button className="Nav-offcanvas" onClick={handleClose1}><FontAwesomeIcon icon={faDoorOpen} /></button>
@@ -81,11 +81,11 @@ function Portfolio() {
 
                 <Nav variant="pills" className="flex-column" onClick={handleShow2} >
                         <Nav.Item className="Nav-tab">
-                        <Nav.Link eventKey="second">Soul Centered</Nav.Link>
+                        <Nav.Link>Soul Centered</Nav.Link>
                         </Nav.Item>
                     </Nav>
 
-                <Offcanvas className="Offcanvas-portfolio-mobile" eventKey="second" show={show2} onHide={handleClose2}>
+                <Offcanvas className="Offcanvas-portfolio-mobile"show={show2} onHide={handleClose2}>
                     <Offcanvas.Header>
                     <Offcanvas.Title></Offcanvas.Title>
                     <button className="Nav-offcanvas" onClick={handleClose2}><FontAwesomeIcon icon={faDoorOpen} /></button>
@@ -97,11 +97,11 @@ function Portfolio() {
 
                 <Nav variant="pills" className="flex-column" onClick={handleShow3} >
                         <Nav.Item className="Nav-tab">
-                        <Nav.Link  eventKey="third">3D/Blender Projects</Nav.Link>
+                        <Nav.Link >3D/Blender Projects</Nav.Link>
                         </Nav.Item>
                     </Nav>
 
-                <Offcanvas className="Offcanvas-portfolio-mobile" eventKey="third" show={show3} onHide={handleClose3}>
+                <Offcanvas className="Offcanvas-portfolio-mobile" show={show3} onHide={handleClose3}>
                     <Offcanvas.Header>
                     <Offcanvas.Title></Offcanvas.Title>
                     <button className="Nav-offcanvas" onClick={handleClose3}><FontAwesomeIcon icon={faDoorOpen} /></button>
