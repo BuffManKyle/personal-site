@@ -28,6 +28,7 @@ const toggleOffCanvas = () => {
                 placement="start"
                 show={show}
                 onHide={toggleOffCanvas}
+                
               >
                 <Offcanvas.Header className="Nav-Offcanvas">
                   <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>

@@ -1,5 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons'
 import Pier from './images/pier002.png';
 import Sword from './images/finalcave001.png';
 import Lamp from './images/Lamp001.png';
@@ -21,19 +23,35 @@ function Website1() {
     return (
             <Container className="Tab-longcut">
                 <Row>
+                    <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
+                            <h2 className="Tab-heading">Long Cut Landscaping</h2>
+                            <div className="Tab-list">
+                                <p>Web Design</p>
+                                <p>Google Indexing</p>
+                                <p>AWS Hosting</p>
+                                <p>AWS Simple Email Service</p> 
+                            </div> 
+                            <Button className="Portfolio-button"><a href="http://www.longcutlandscaping.com/" target="_blank" rel="noreferrer noopener">
+                                Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                            </Button>    
+                    </Col>
                     <Col sm={12} lg={8}>
                         <img className="d-block w-100 Tab-image" src={Longcut1 } alt="longcut1"/>
                     </Col>
-                    <Col sm={12} lg={3}>
-                        <h2 className="Tab-heading">Long Cut Landscaping</h2>
-                        <a href="http://www.longcutlandscaping.com/" target="_blank" rel="noreferrer noopener"><h5>Check it out here!</h5></a>
-                            <p className="Tab-list">Web Design</p>
-                            <p className="Tab-list">Google Indexing</p>
-                            <p className="Tab-list">AWS Hosting</p>
-                            <p className="Tab-list">AWS Simple Email Service</p>
-                        
-                        
-                    </Col>
+                    
+                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
+                            <h2 className="Tab-heading">Long Cut Landscaping</h2>
+                            <div className="Tab-list">
+                                <p>Web Design</p>
+                                <p>Google Indexing</p>
+                                <p>AWS Hosting</p>
+                                <p>AWS Simple Email Service</p> 
+                            </div>
+                                <Button className="Portfolio-button"><a href="http://www.longcutlandscaping.com/" target="_blank" rel="noreferrer noopener">
+                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                                </Button>     
+                        </Col>
+                    
                 </Row>
                 <Row>
                     <Col sm={12} lg={6}>
@@ -65,18 +83,35 @@ function Website2() {
     return (
             <Container className="Tab-soulcentered">
                 <Row>
+                        <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
+                            <h2 className="Tab-heading">Soul Centered</h2>
+                            <div className="Tab-list">
+                                <p>Wordpress and Woocommerce</p>
+                                <p>SEO Optimization</p>
+                                <p>Plugins</p>
+                                <p>Web Design</p>
+                            </div>
+                                <Button className="Portfolio-button"><a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener">
+                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                                </Button> 
+                        </Col>
                     <Col sm={12} lg={8}>
                         <img className="d-block w-100 Tab-image" src={Soul1 } alt="Soulcentered1"/>
                     </Col>
-                    <Col sm={12} lg={3} className="Tab-content">
-                        <h2 className="Tab-heading">Soul Centered</h2>
-                        <a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener"><h5>Check it out here!</h5></a>
-                            <p className="Tab-list">Wordpress and Woocommerce</p>
-                            <p className="Tab-list">SEO Optimization</p>
-                            <p className="Tab-list">Plugins</p>
-                            <p className="Tab-list">Web Design</p>
-                            
-                    </Col>
+                    
+                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
+                            <h2 className="Tab-heading">Soul Centered</h2>
+                            <div className="Tab-list">
+                                <p>Wordpress and Woocommerce</p>
+                                <p>SEO Optimization</p>
+                                <p>Plugins</p>
+                                <p>Web Design</p>
+                            </div>
+                                <Button className="Portfolio-button"><a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener">
+                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                                </Button> 
+                        </Col>
+                    
                 </Row>
                 <Row>
                     <Col sm={12} lg={6}>
@@ -106,13 +141,20 @@ function Blenderwork() {
     return (
             <Container className="Tab-blender">
                 <Row>
+                    <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
+                        <h2 className="Tab-heading">Blender Projects</h2>
+                        <p className="Tab-content"></p>
+                    </Col>
+
                     <Col sm={12} lg={8}>
                         <img className="d-block w-100 Tab-image" src={Interior } alt="Blender Interior"/>
                     </Col>
-                    <Col sm={12} lg={3}>
-                        <h2 className="Tab-heading">Blender Projects</h2>
-                            <p className="Tab-content"></p>
-                    </Col>
+                    
+                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
+                            <h2 className="Tab-heading">Blender Projects</h2>
+                                <p className="Tab-content"></p>
+                        </Col>
+                    
                 </Row>
 
                 <Row>

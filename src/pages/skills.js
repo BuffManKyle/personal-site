@@ -29,7 +29,7 @@ function Resume() {
                             
                         </Col>
                         <Col className="text-center shadows p-3 mb-5 rounded" sm={12} lg={5}>
-                            <h3 className="">Operating System</h3>
+                            <h3 className="">Operating Systems</h3>
                             <h5>Windows OS</h5>
                         </Col>
                     </Row>

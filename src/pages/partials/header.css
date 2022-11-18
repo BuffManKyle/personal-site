@@ -8,6 +8,12 @@ li {
     padding: 3% 0;
 }
 
+ @supports (backdrop-filter: blur(5em)) {
+    .Navbar-background{
+        background: hsl(0 0% 100% .01);
+        backdrop-filter: blur(5em);
+    }
+}
 .Nav-Offcanvas{
     background-color: #333333;
 }
@@ -62,6 +68,10 @@ li {
 
 .Nav-offcanvas:hover{
     color: #D16BA5;
+}
+
+.offcanvas-full{
+    width: 200%;
 }
 
 @media (max-width:480px){
