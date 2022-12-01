@@ -13,7 +13,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm(process.env.GATSBY_YOUR_SERVICE_ID, process.env.GATSBY_YOUR_TEMPLATE_ID, form.current, process.env.GATSBY_YOUR_PUBLIC_KEY)
+        emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -64,7 +64,7 @@ function Contact() {
                                     </Col>
                                   
                                     <Button type="Submit" value="send" className="Contact-button">
-                                        Send 
+                                        Send
                                     </Button>
                             </form>
                             <ToastContainer/>
