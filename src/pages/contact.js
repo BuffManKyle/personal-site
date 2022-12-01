@@ -64,7 +64,7 @@ function Contact() {
                                     </Col>
                                   
                                     <Button type="Submit" value="send" className="Contact-button">
-                                        Send
+                                        Send 
                                     </Button>
                             </form>
                             <ToastContainer/>
