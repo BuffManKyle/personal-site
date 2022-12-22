@@ -14,9 +14,9 @@ function App() {
   return (
     <div className='Body-css'>
       <Header />
-        <Slide top>
+        
           <div className='sections' id="home"  > <Home /></div>
-        </Slide>
+        
 
         <Slide left>
           <div className='sections' id="portfolio" > <Portfolio /> </div>
