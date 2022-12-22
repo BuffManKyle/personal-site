@@ -2,10 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons'
-import Pier from './images/pier002.png';
-import Sword from './images/finalcave001.png';
-import Lamp from './images/Lamp001.png';
-import Interior from './images/Room001.png';
+
 import Longcut1 from './images/longcut1.png';
 import Longcut2 from './images/longcut2.png';
 import Longcut3 from './images/longcut3.png';
@@ -18,6 +15,14 @@ import Soul3 from './images/soul3.PNG';
 import Soulm1 from './images/soulmobile1.PNG';
 import Soulm2 from './images/soulmobile2.PNG';
 import Soulm3 from './images/soulmobile3.PNG';
+import Romanst from './images/romanstormtrooper.png';
+import Spaceinterior from './images/spaceinterior.png';
+import Mountain from './images/mountainlandscape.png';
+import Cosmic from './images/cosmichorizons.png';
+import Volcano from './images/volcano.png';
+import Orangeforest from './images/orangeforest.png';
+import Watertown from './images/Zhejiang-water-town.png';
+import Train from './images/train.png';
 
 function Website1() {
     return (
@@ -137,21 +142,21 @@ function Website2() {
     )
 }
 
-function Blenderwork() {
+function Aiartwork() {
     return (
-            <Container className="Tab-blender">
+            <Container className="Tab-AI-art">
                 <Row>
                     <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
-                        <h2 className="Tab-heading">Blender Projects</h2>
+                        <h2 className="Tab-heading">AI generated artwork with MidJourney</h2>
                         <p className="Tab-content"></p>
                     </Col>
 
                     <Col sm={12} lg={8}>
-                        <img className="d-block w-100 Tab-image" src={Interior } alt="Blender Interior"/>
+                        <img className="d-block w-100 Tab-image" src={Mountain } alt="Blender Interior"/>
                     </Col>
                     
                         <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
-                            <h2 className="Tab-heading">Blender Projects</h2>
+                            <h2 className="Tab-heading">AI generated artwork with MidJourney</h2>
                                 <p className="Tab-content"></p>
                         </Col>
                     
@@ -159,13 +164,31 @@ function Blenderwork() {
 
                 <Row>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Sword } alt="Blender Sword"/>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Romanst } alt="Blender Sword"/>
                     </Col>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Lamp} alt="Blender Lamp"/>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Spaceinterior } alt="Blender Lamp"/>
                     </Col>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Pier } alt="Blender Pier"/>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Cosmic } alt="Blender Pier"/>
+                    </Col>
+                </Row>
+
+                <Row className="justify-content-center">
+                    <Col sm={12} lg={8}>
+                        <img className="d-block w-100 Tab-image" src={Watertown } alt="Blender Interior"/>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Volcano } alt="Blender Sword"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Orangeforest } alt="Blender Lamp"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Train } alt="Blender Pier"/>
                     </Col>
                 </Row>
 
@@ -174,4 +197,4 @@ function Blenderwork() {
     )
 }
 
-export {Website1, Website2, Blenderwork};
+export {Website1, Website2, Aiartwork};

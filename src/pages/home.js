@@ -44,7 +44,7 @@ class TypingEffect extends React.Component {
   
     render() {
       return (
-        <h1>
+        <h1 className="home-name">
           {this.state.text}
           {this.state.text !== this.props.dataText[this.props.dataText.length - 1] &&
             <span className="cursor">{this.state.cursor}</span>
@@ -62,10 +62,10 @@ function Home() {
                                 <Col className="text-center">
                                     <div className="home-space">
                                         <h1 className="home-name-intro">Introducing</h1>
-                                        <div className="home-name">
+                                        <div>
                                             <TypingEffect dataText={['Kyle']} delay={800} />
                                         </div>
-                                        <div className="home-name">
+                                        <div>
                                             <TypingEffect dataText={['Katzenmaier']} delay={1600} /> 
                                         </div>
                         

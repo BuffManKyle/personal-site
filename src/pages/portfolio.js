@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDoorOpen } from '@fortawesome/free-solid-svg-icons'
 import { Container, Row, Col, Tab, Nav, Card } from 'react-bootstrap';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Blenderwork, Website1, Website2 } from './assets/projects';
+import { Aiartwork, Website1, Website2 } from './assets/projects';
 
 function Portfolio() {
 
@@ -38,7 +38,7 @@ function Portfolio() {
                                         <Nav.Link eventKey="second">Soul Centered</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item className="Nav-tab">
-                                        <Nav.Link eventKey="third">3D/Blender Projects</Nav.Link>
+                                        <Nav.Link eventKey="third">AI Artwork</Nav.Link>
                                         </Nav.Item>
                                     </Nav>
                                 </Col>
@@ -51,7 +51,7 @@ function Portfolio() {
                                         <Website2 />
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="third">
-                                        <Blenderwork />
+                                        <Aiartwork />
                                         </Tab.Pane>
                                     </Tab.Content>
                                 </Col>
@@ -97,7 +97,7 @@ function Portfolio() {
 
                 <Nav variant="pills" className="flex-column" onClick={handleShow3} >
                         <Nav.Item className="Nav-tab">
-                        <Nav.Link >3D/Blender Projects</Nav.Link>
+                        <Nav.Link >AI Artwork</Nav.Link>
                         </Nav.Item>
                     </Nav>
 
@@ -107,7 +107,7 @@ function Portfolio() {
                     <button className="Nav-offcanvas" onClick={handleClose3}><FontAwesomeIcon icon={faDoorOpen} /></button>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                    <Blenderwork/>
+                    <Aiartwork/>
                     </Offcanvas.Body>
                 </Offcanvas>
             </div>
