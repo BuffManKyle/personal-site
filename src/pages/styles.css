@@ -133,7 +133,7 @@ hr{
     border:1px solid #fff !important;
 }
 
-.card{
+.card .card-header{
     border: none !important;
 }
 
