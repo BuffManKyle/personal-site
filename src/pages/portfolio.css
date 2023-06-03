@@ -55,14 +55,20 @@
     height: 20px;
 }
 
+.Tab{
+    border-radius: 5px;
+}
+
+.Tab-410{
+    background-color: #0D6EFD;
+}
+
 .Tab-longcut{
     background-color: #3F7802!important;
-    border-radius: 5px;
 }
 
 .Tab-soulcentered{
     background-color: #1C9AD6 !important;
-    border-radius: 5px;
 }
 
 .Portfolio-button{

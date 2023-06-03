@@ -3,6 +3,12 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons'
 
+import Fouroneo1 from './images/fouroneo1.PNG'
+import Fouroneo2 from './images/fouroneo2.PNG'
+import Fouroneo3 from './images/fouroneo3.PNG'
+import Fouroneom1 from './images/fouroneom1.PNG'
+import Fouroneom2 from './images/fouroneom2.PNG'
+import Fouroneom3 from './images/fouroneom3.PNG'
 import Longcut1 from './images/longcut1.png';
 import Longcut2 from './images/longcut2.png';
 import Longcut3 from './images/longcut3.png';
@@ -26,7 +32,125 @@ import Train from './images/train.png';
 
 function Website1() {
     return (
-            <Container className="Tab-longcut">
+            <Container className="Tab-410 Tab">
+                <Row>
+                    <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
+                            <h2 className="Tab-heading">Four One O Detailing</h2>
+                            <div className="Tab-list">
+                                <p>Web Design</p>
+                                <p>Concept Website</p>
+                                <p>Work In Progress</p>
+                                <p></p> 
+                            </div> 
+                            <Button className="Portfolio-button"><a href="https://relaxed-pika-a0b2a9.netlify.app/" target="_blank" rel="noreferrer noopener">
+                                Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                            </Button>    
+                    </Col>
+                    <Col sm={12} lg={8}>
+                        <img className="d-block w-100 Tab-image" src={Fouroneo1 } alt="Fouroneo1"/>
+                    </Col>
+                    
+                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
+                            <h2 className="Tab-heading">Four One O Detailing</h2>
+                            <div className="Tab-list">
+                                <p>Web Design</p>
+                                <p>Concept Website</p>
+                                <p>Work In Progress</p>
+                                <p></p> 
+                            </div>
+                                <Button className="Portfolio-button"><a href="https://relaxed-pika-a0b2a9.netlify.app/" target="_blank" rel="noreferrer noopener">
+                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                                </Button>     
+                        </Col>
+                    
+                </Row>
+                <Row>
+                    <Col sm={12} lg={6}>
+                        <img className="d-block w-100 Tab-image" src={Fouroneo2 } alt="Fouroneo2"/>
+                    </Col>
+                    <Col sm={12} lg={6}>
+                        <img className="d-block w-100 Tab-image" src={Fouroneo3 } alt="Fouroneo3"/>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Fouroneom1 } alt="Fouroneom1"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Fouroneom2 } alt="Fouroneom2"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Fouroneom3 } alt="Fouroneom3"/>
+                    </Col>
+                </Row>
+            </Container>
+                    
+    );
+}
+
+
+function Website2() {
+    return (
+            <Container className="Tab-soulcentered Tab">
+                <Row>
+                        <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
+                            <h2 className="Tab-heading">Soul Centered</h2>
+                            <div className="Tab-list">
+                                <p>Wordpress and Woocommerce</p>
+                                <p>SEO Optimization</p>
+                                <p>Plugins</p>
+                                <p>Web Design</p>
+                            </div>
+                                <Button className="Portfolio-button"><a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener">
+                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                                </Button> 
+                        </Col>
+                    <Col sm={12} lg={8}>
+                        <img className="d-block w-100 Tab-image" src={Soul1 } alt="Soulcentered1"/>
+                    </Col>
+                    
+                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
+                            <h2 className="Tab-heading">Soul Centered</h2>
+                            <div className="Tab-list">
+                                <p>Wordpress and Woocommerce</p>
+                                <p>SEO Optimization</p>
+                                <p>Plugins</p>
+                                <p>Web Design</p>
+                            </div>
+                                <Button className="Portfolio-button"><a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener">
+                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                                </Button> 
+                        </Col>
+                    
+                </Row>
+                <Row>
+                    <Col sm={12} lg={6}>
+                        <img className="d-block w-100 Tab-image" src={Soul2 } alt="Soulcentered2"/>
+                    </Col>
+                    <Col sm={12} lg={6}>
+                        <img className="d-block w-100 Tab-image" src={Soul3 } alt="Soulcentered3"/>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Soulm1 } alt="Soulcenteredmobile1"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Soulm2 } alt="Soulcenteredmobile2"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Soulm3 } alt="Soulcenteredmobile3"/>
+                    </Col>
+                </Row>
+            </Container>
+    )
+}
+
+function Website3() {
+    return (
+            <Container className="Tab-longcut Tab">
                 <Row>
                     <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
                             <h2 className="Tab-heading">Long Cut Landscaping</h2>
@@ -83,68 +207,9 @@ function Website1() {
     );
 }
 
-
-function Website2() {
-    return (
-            <Container className="Tab-soulcentered">
-                <Row>
-                        <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
-                            <h2 className="Tab-heading">Soul Centered</h2>
-                            <div className="Tab-list">
-                                <p>Wordpress and Woocommerce</p>
-                                <p>SEO Optimization</p>
-                                <p>Plugins</p>
-                                <p>Web Design</p>
-                            </div>
-                                <Button className="Portfolio-button"><a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener">
-                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-                                </Button> 
-                        </Col>
-                    <Col sm={12} lg={8}>
-                        <img className="d-block w-100 Tab-image" src={Soul1 } alt="Soulcentered1"/>
-                    </Col>
-                    
-                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
-                            <h2 className="Tab-heading">Soul Centered</h2>
-                            <div className="Tab-list">
-                                <p>Wordpress and Woocommerce</p>
-                                <p>SEO Optimization</p>
-                                <p>Plugins</p>
-                                <p>Web Design</p>
-                            </div>
-                                <Button className="Portfolio-button"><a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener">
-                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-                                </Button> 
-                        </Col>
-                    
-                </Row>
-                <Row>
-                    <Col sm={12} lg={6}>
-                        <img className="d-block w-100 Tab-image" src={Soul2 } alt="Soulcentered2"/>
-                    </Col>
-                    <Col sm={12} lg={6}>
-                        <img className="d-block w-100 Tab-image" src={Soul3 } alt="Soulcentered3"/>
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Soulm1 } alt="Soulcenteredmobile1"/>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Soulm2 } alt="Soulcenteredmobile2"/>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Soulm3 } alt="Soulcenteredmobile3"/>
-                    </Col>
-                </Row>
-            </Container>
-    )
-}
-
 function Aiartwork() {
     return (
-            <Container className="Tab-AI-art">
+            <Container className="Tab-AI-art Tab">
                 <Row>
                     <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
                         <h2 className="Tab-heading">AI generated artwork with MidJourney</h2>
@@ -197,4 +262,4 @@ function Aiartwork() {
     )
 }
 
-export {Website1, Website2, Aiartwork};
+export {Website1, Website2, Website3, Aiartwork};
