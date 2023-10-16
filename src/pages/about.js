@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import Aboutme from './assets/images/IMG_8201.jpg';
+import Aboutme from './assets/images/temp-self.jpg';
 import {useState} from 'react';
 
 

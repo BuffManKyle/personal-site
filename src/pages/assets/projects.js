@@ -3,12 +3,18 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons'
 
-import Fouroneo1 from './images/fouroneo1.PNG'
-import Fouroneo2 from './images/fouroneo2.PNG'
-import Fouroneo3 from './images/fouroneo3.PNG'
-import Fouroneom1 from './images/fouroneom1.PNG'
-import Fouroneom2 from './images/fouroneom2.PNG'
-import Fouroneom3 from './images/fouroneom3.PNG'
+import Fouroneo1 from './images/fouroneo1.PNG';
+import Fouroneo2 from './images/fouroneo2.PNG';
+import Fouroneo3 from './images/fouroneo3.PNG';
+import Fouroneom1 from './images/fouroneom1.PNG';
+import Fouroneom2 from './images/fouroneom2.PNG';
+import Fouroneom3 from './images/fouroneom3.PNG';
+import rn1 from './images/rn1.PNG';
+import rn2 from './images/rn2.PNG';
+import rn3 from './images/rn3.PNG';
+import rnm1 from './images/rnm1.PNG';
+import rnm2 from './images/rnm2.PNG';
+import rnm3 from './images/rnm3.PNG';
 import Longcut1 from './images/longcut1.png';
 import Longcut2 from './images/longcut2.png';
 import Longcut3 from './images/longcut3.png';
@@ -89,8 +95,66 @@ function Website1() {
     );
 }
 
-
 function Website2() {
+    return (
+            <Container className="Tab-rn Tab">
+                <Row>
+                    <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
+                            <h2 className="Tab-heading">Recovery Network</h2>
+                            <div className="Tab-list">
+                                <p>Web Design</p>
+                                <p>Concept Website</p>
+                                <p>Work In Progress</p>
+                                <p></p> 
+                            </div> 
+                            <Button className="Portfolio-button"><a href="https://stirring-creponne-388c55.netlify.app/" target="_blank" rel="noreferrer noopener">
+                                Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                            </Button>    
+                    </Col>
+                    <Col sm={12} lg={8}>
+                        <img className="d-block w-100 Tab-image" src={rn1 } alt="rn1"/>
+                    </Col>
+                    
+                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
+                            <h2 className="Tab-heading">Recovery Network</h2>
+                            <div className="Tab-list">
+                                <p>Web Design</p>
+                                <p>Concept Website</p>
+                                <p>Work In Progress</p>
+                                <p></p> 
+                            </div>
+                                <Button className="Portfolio-button"><a href="https://stirring-creponne-388c55.netlify.app/" target="_blank" rel="noreferrer noopener">
+                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+                                </Button>     
+                        </Col>
+                    
+                </Row>
+                <Row>
+                    <Col sm={12} lg={6}>
+                        <img className="d-block w-100 Tab-image" src={rn2 } alt="rn2"/>
+                    </Col>
+                    <Col sm={12} lg={6}>
+                        <img className="d-block w-100 Tab-image" src={rn3 } alt="rn3"/>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={rnm1 } alt="rnm1"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={rnm2 } alt="rnm2"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={rnm3 } alt="rnm3"/>
+                    </Col>
+                </Row>
+            </Container>
+                    
+    );
+}
+
+function Website3() {
     return (
             <Container className="Tab-soulcentered Tab">
                 <Row>
@@ -148,7 +212,7 @@ function Website2() {
     )
 }
 
-function Website3() {
+function Website4() {
     return (
             <Container className="Tab-longcut Tab">
                 <Row>
@@ -262,4 +326,4 @@ function Aiartwork() {
     )
 }
 
-export {Website1, Website2, Website3, Aiartwork};
+export {Website1, Website2, Website3, Website4, Aiartwork};
