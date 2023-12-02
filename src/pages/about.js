@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import Aboutme from './assets/images/temp-self.jpg';
+import Aboutme from './assets/images/Mantuik.JPG';
 import {useState} from 'react';
 
 
@@ -8,7 +8,7 @@ function About() {
 
     const [showMore, setShowMore] = useState(false);
 
-    const text = "I graduated from Towson University in the summer of 2021 with a Bachelor's Degree in Communication Studies. Through my interest in video games, I discovered 3D graphic designs. Using Blender, I created various animations, landscapes, and simple assets. I later discovered Python, which I used for a short time to program a Discord bot with basic functions. Looking for other projects to work on, I looked into web development. With hopes of doing full stack, I am currently doing front-end web development while practicing more with back-end development. I have been able to develop websites and push them into production, all by teaching myself."
+    const text = "I am currently employed full-time as an IT Support Engineer, concurrently engaging in website development during my free hours. When not at work, you'll likely find me at the gym or immersed in studying for my next certification. In the process of exploring potential career paths, I stumbled upon web development early in my coding journey. The satisfaction of witnessing visual transformations from inception to completion intrigued me. Although my current portfolio mainly comprises unfinished projects, I have developed a strong passion for working in IT. My goal is to complete these projects and embark on creating a plethora of new websites in the near future."
 
 
     return (
@@ -19,7 +19,7 @@ function About() {
                         </Col>
                         <Col sm={12} lg={8} className="text-center">
                             <h2 className="h2-gradient">About Me</h2>
-                            <h4>24 Years | Maryland | Freelance Web Developer</h4>
+                            <h4>25 Years | Maryland | Freelance Web Developer</h4>
                             <hr></hr>
                             <h5 className="hide-on-mobile">{text}</h5>
                             <div className="hide-on-desktop"> 
