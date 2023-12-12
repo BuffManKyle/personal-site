@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./header.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons'
 import { faDoorOpen, faBars } from '@fortawesome/free-solid-svg-icons'
 import React, { useState } from "react";
 import { Container, Nav, Navbar, Offcanvas, Col, Row,} from 'react-bootstrap';
@@ -60,6 +60,7 @@ const toggleOffCanvas = () => {
                       <Col>
                         <a className="icon-Nav" target="_blank" rel="noopener noreferrer" href="https://github.com/BuffManKyle"><FontAwesomeIcon icon={faGithub} /></a>
                         <a className="icon-Nav" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kylekatzenmaier/"><FontAwesomeIcon icon={faLinkedin} /></a>
+                        <a className="icon-Nav" target="_blank" rel="noopener noreferrer" href="https://instagram.com/kyle_katz1026?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr"><FontAwesomeIcon icon={faInstagram} /></a>
                       </Col>
                     </Row> 
                   </Nav>
