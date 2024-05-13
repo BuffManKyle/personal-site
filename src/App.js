@@ -17,7 +17,6 @@ function App() {
         
           <div className='sections' id="home"  > <Home /></div>
         
-
         <Slide left>
           <div className='sections' id="portfolio" > <Portfolio /> </div>
         </Slide>
