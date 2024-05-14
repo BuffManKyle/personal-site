@@ -35,6 +35,14 @@ import Volcano from './images/volcano.png';
 import Orangeforest from './images/orangeforest.png';
 import Watertown from './images/Zhejiang-water-town.png';
 import Train from './images/train.png';
+import Duck from './images/duck.jpg';
+import Pond from './images/pond.jpg';
+import ParkBridge from './images/parkbridge.jpg';
+import Pier01 from './images/pier01.jpg';
+import Cords from './images/cords.jpg';
+import Rock from './images/rock.jpg';
+import Flowers from './images/flowers.jpg';
+import Sky from './images/sky.jpg';
 
 function Website1() {
     return (
@@ -166,9 +174,7 @@ function Website3() {
                                 <p>Plugins</p>
                                 <p>Web Design</p>
                             </div>
-                                <Button className="Portfolio-button"><a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener">
-                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-                                </Button> 
+                                
                         </Col>
                     <Col sm={12} lg={8}>
                         <img className="d-block w-100 Tab-image" src={Soul1 } alt="Soulcentered1"/>
@@ -182,9 +188,7 @@ function Website3() {
                                 <p>Plugins</p>
                                 <p>Web Design</p>
                             </div>
-                                <Button className="Portfolio-button"><a href="https://soulcentered.com/" target="_blank" rel="noreferrer noopener">
-                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-                                </Button> 
+                               
                         </Col>
                     
                 </Row>
@@ -224,9 +228,7 @@ function Website4() {
                                 <p>AWS Hosting</p>
                                 <p>AWS Simple Email Service</p> 
                             </div> 
-                            <Button className="Portfolio-button"><a href="http://www.longcutlandscaping.com/" target="_blank" rel="noreferrer noopener">
-                                Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-                            </Button>    
+                               
                     </Col>
                     <Col sm={12} lg={8}>
                         <img className="d-block w-100 Tab-image" src={Longcut1 } alt="longcut1"/>
@@ -240,9 +242,7 @@ function Website4() {
                                 <p>AWS Hosting</p>
                                 <p>AWS Simple Email Service</p> 
                             </div>
-                                <Button className="Portfolio-button"><a href="http://www.longcutlandscaping.com/" target="_blank" rel="noreferrer noopener">
-                                    Check it out here! <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-                                </Button>     
+                                     
                         </Col>
                     
                 </Row>
@@ -326,4 +326,62 @@ function Aiartwork() {
     )
 }
 
-export {Website1, Website2, Website3, Website4, Aiartwork};
+function Photography() {
+    return (
+            <Container className="Tab-AI-art Tab">
+                <Row>
+                    <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
+                        <h2 className="Tab-heading">Just some pictures</h2>
+                        <p className="Tab-content"></p>
+                    </Col>
+
+                    <Col sm={12} lg={8}>
+                        <img className="d-block w-100 Tab-image" src={Pond } alt="Blender Interior"/>
+                    </Col>
+                    
+                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
+                            <h2 className="Tab-heading">Just some pictures</h2>
+                                <p className="Tab-content"></p>
+                        </Col>
+                    
+                </Row>
+
+                <Row>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Sky } alt="Blender Sword"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Cords} alt="Blender Lamp"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={ParkBridge } alt="Blender Pier"/>
+                    </Col>
+                </Row>
+
+                <Row className="justify-content-center">
+                    <Col sm={12} lg={8}>
+                        <img className="d-block w-100 Tab-image" src={Pier01} alt="Blender Interior"/>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Flowers } alt="Blender Sword"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Rock } alt="Blender Lamp"/>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <img className="d-block w-75 mx-auto Tab-image" src={Duck } alt="Blender Pier"/>
+                    </Col>
+                </Row>
+
+               
+            </Container>
+    )
+}
+
+
+
+
+export {Website1, Website2, Website3, Website4, Aiartwork, Photography};

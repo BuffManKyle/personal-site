@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import Aboutme from './assets/images/Mantuik.JPG';
+import Aboutme from './assets/images/reallycoolpicofme.jpg';
 import {useState} from 'react';
 
 
@@ -19,7 +19,7 @@ function About() {
                         </Col>
                         <Col sm={12} lg={8} className="text-center">
                             <h2 className="h2-gradient">About Me</h2>
-                            <h4>25 Years | Maryland | Freelance Web Developer</h4>
+                            <h4>25 Years | Maryland | IT Support Engineer</h4>
                             <hr></hr>
                             <h5 className="hide-on-mobile">{text}</h5>
                             <div className="hide-on-desktop"> 

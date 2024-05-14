@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDoorOpen } from '@fortawesome/free-solid-svg-icons'
 import { Container, Row, Col, Tab, Nav, Card } from 'react-bootstrap';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Aiartwork, Website1, Website2, Website3, Website4 } from './assets/projects';
+import { Aiartwork, Website1, Website2, Website3, Website4, Photography } from './assets/projects';
 
 function Portfolio() {
 
@@ -14,19 +14,21 @@ function Portfolio() {
     const [show3, setShow3] = useState(false);
     const [show4, setShow4] = useState(false);
     const [show5, setShow5] = useState(false);
+    const [show6, setShow6] = useState(false);
 
     const handleClose1 = () => setShow1(false);
     const handleClose2 = () => setShow2(false);
     const handleClose3 = () => setShow3(false);
     const handleClose4 = () => setShow4(false);
     const handleClose5 = () => setShow5(false);
+    const handleClose6 = () => setShow6(false);
 
     const handleShow1 = () => setShow1(true);
     const handleShow2 = () => setShow2(true);
     const handleShow3 = () => setShow3(true);
     const handleShow4 = () => setShow4(true);
     const handleShow5 = () => setShow5(true);
-
+    const handleShow6 = () => setShow6(true);
 
     return (
         <Container fluid>
@@ -51,7 +53,10 @@ function Portfolio() {
                                         <Nav.Link eventKey="fourth">Long Cut Landscaping</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item className="Nav-tab">
-                                        <Nav.Link eventKey="fifth">AI Artwork</Nav.Link>
+                                        <Nav.Link eventKey="fifth">Photography</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item className="Nav-tab">
+                                        <Nav.Link eventKey="sixth">AI Artwork</Nav.Link>
                                         </Nav.Item>
                                     </Nav>
                                 </Col>
@@ -70,6 +75,9 @@ function Portfolio() {
                                         <Website4 />
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="fifth">
+                                        <Photography />
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="sixth">
                                         <Aiartwork />
                                         </Tab.Pane>
                                     </Tab.Content>
@@ -149,7 +157,7 @@ function Portfolio() {
 
                 <Nav variant="pills" className="flex-column" onClick={handleShow5} >
                         <Nav.Item className="Nav-tab">
-                        <Nav.Link >AI Artwork</Nav.Link>
+                        <Nav.Link >Photography</Nav.Link>
                         </Nav.Item>
                     </Nav>
 
@@ -157,6 +165,22 @@ function Portfolio() {
                     <Offcanvas.Header>
                     <Offcanvas.Title></Offcanvas.Title>
                     <button className="Nav-offcanvas" onClick={handleClose5}><FontAwesomeIcon icon={faDoorOpen} /></button>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+                    <Photography/>
+                    </Offcanvas.Body>
+                </Offcanvas>
+
+                <Nav variant="pills" className="flex-column" onClick={handleShow6} >
+                        <Nav.Item className="Nav-tab">
+                        <Nav.Link >AI Artwork</Nav.Link>
+                        </Nav.Item>
+                    </Nav>
+
+                <Offcanvas className="Offcanvas-portfolio-mobile" show={show6} onHide={handleClose6}>
+                    <Offcanvas.Header>
+                    <Offcanvas.Title></Offcanvas.Title>
+                    <button className="Nav-offcanvas" onClick={handleClose6}><FontAwesomeIcon icon={faDoorOpen} /></button>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                     <Aiartwork/>

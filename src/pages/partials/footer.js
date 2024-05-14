@@ -8,8 +8,7 @@ function Footer() {
                 <Container>
                     <Row className="text-center">
                         <Col>
-                            <p>Designed by Kyle Katzenmaier</p>
-                            <p>Copyright 2022</p>
+                            <p>© 2024 | Designed by Kyle Katzenmaier</p>
                         </Col>
                     </Row>
                 </Container>
