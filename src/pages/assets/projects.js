@@ -365,31 +365,6 @@ function Photography() {
                         </Zoom>
                     </Col>
                 </Row>
-                <Row>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Sky } alt="It is blue with white clouds"/>
-                        </Zoom>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Cords} alt="Coordanites end of pier"/>
-                        </Zoom>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={ParkBridge } alt="Brookside Gardens Bridge"/>
-                        </Zoom>
-                    </Col>
-                </Row>
-
-                <Row className="justify-content-center">
-                    <Col sm={12} lg={8}>
-                        <Zoom>
-                            <img className="d-block w-100 Tab-image" src={Pier01} alt="Some Pier"/>
-                        </Zoom>
-                    </Col>
-                </Row>
 
                 <Row>
                     <Col sm={4} lg={4}>
@@ -408,6 +383,33 @@ function Photography() {
                         </Zoom>
                     </Col>
                 </Row>
+
+                <Row className="justify-content-center">
+                    <Col sm={12} lg={8}>
+                        <Zoom>
+                            <img className="d-block w-100 Tab-image" src={Pier01} alt="Some Pier"/>
+                        </Zoom>
+                    </Col>
+                </Row>
+                
+                <Row>
+                    <Col sm={4} lg={4}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Sky } alt="It is blue with white clouds"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Cords} alt="Coordanites end of pier"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={ParkBridge } alt="Brookside Gardens Bridge"/>
+                        </Zoom>
+                    </Col>
+                </Row>
+                
 
                 <Row>
                     <Col sm={6} lg={6}>
