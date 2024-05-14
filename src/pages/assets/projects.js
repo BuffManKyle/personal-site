@@ -349,7 +349,7 @@ function Photography() {
                     
                         <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
                             <h2 className="Tab-heading">Just some pictures</h2>
-                                <p className="Tab-content"> Trying to practice and get better with Lightroom and taking pictures.</p>
+                                <p className="Tab-content">Shot on iPhone 13 and edited with Lightroom</p>
                         </Col>
                     
                 </Row>
