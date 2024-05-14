@@ -39,10 +39,10 @@
 }
 
 .Tab-image{
-    border-color: #fff;
-    border-radius: 5px;
-    border-width: 10%;
-    border-style: solid;
+    border-color: #fff !important;
+    border-radius: 5px !important;
+    border-width: 10% !important;
+    border-style: solid !important;
     margin: 3% 0;
 }
 

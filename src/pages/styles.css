@@ -137,6 +137,10 @@ hr{
     border: none !important;
 }
 
+/* Zoom */
+[data-rmiz-modal-overlay="visible"] {
+    background-color: rgb(0, 0, 0) !important;
+  }
 
 
 /*ID Tags*/

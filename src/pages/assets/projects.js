@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 import Fouroneo1 from './images/fouroneo1.PNG';
 import Fouroneo2 from './images/fouroneo2.PNG';
@@ -43,6 +45,10 @@ import Cords from './images/cords.jpg';
 import Rock from './images/rock.jpg';
 import Flowers from './images/flowers.jpg';
 import Sky from './images/sky.jpg';
+import Car01 from './images/car01.jpg';
+import Car02 from './images/car02.jpg';
+import Car03 from './images/car03.jpg';
+import Car04 from './images/car04.jpg';
 
 function Website1() {
     return (
@@ -336,46 +342,85 @@ function Photography() {
                     </Col>
 
                     <Col sm={12} lg={8}>
-                        <img className="d-block w-100 Tab-image" src={Pond } alt="Blender Interior"/>
+                        <Zoom>
+                            <img className="d-block w-100 Tab-image" src={Pond } alt="Brookside Gardens Park"/>
+                        </Zoom>
                     </Col>
                     
                         <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
                             <h2 className="Tab-heading">Just some pictures</h2>
-                                <p className="Tab-content"></p>
+                                <p className="Tab-content"> Trying to practice and get better with Lightroom and taking pictures.</p>
                         </Col>
                     
                 </Row>
-
+                <Row>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Car01 } alt="Red Porsche and BMW"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Car03 } alt="Blue Audi"/>
+                        </Zoom>
+                    </Col>
+                </Row>
                 <Row>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Sky } alt="Blender Sword"/>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Sky } alt="It is blue with white clouds"/>
+                        </Zoom>
                     </Col>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Cords} alt="Blender Lamp"/>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Cords} alt="Coordanites end of pier"/>
+                        </Zoom>
                     </Col>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={ParkBridge } alt="Blender Pier"/>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={ParkBridge } alt="Brookside Gardens Bridge"/>
+                        </Zoom>
                     </Col>
                 </Row>
 
                 <Row className="justify-content-center">
                     <Col sm={12} lg={8}>
-                        <img className="d-block w-100 Tab-image" src={Pier01} alt="Blender Interior"/>
+                        <Zoom>
+                            <img className="d-block w-100 Tab-image" src={Pier01} alt="Some Pier"/>
+                        </Zoom>
                     </Col>
                 </Row>
 
                 <Row>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Flowers } alt="Blender Sword"/>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Flowers } alt="Brighton Dam Azalea Garden"/>
+                        </Zoom>
                     </Col>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Rock } alt="Blender Lamp"/>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Rock } alt="Brighton Dam Azalea Garden Reservoir"/>
+                        </Zoom>
                     </Col>
                     <Col sm={4} lg={4}>
-                        <img className="d-block w-75 mx-auto Tab-image" src={Duck } alt="Blender Pier"/>
+                        <Zoom>
+                           <img className="d-block w-100 mx-auto Tab-image" src={Duck } alt="Duck!"/> 
+                        </Zoom>
                     </Col>
                 </Row>
 
+                <Row>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Car04 } alt="White BMW"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Car02 } alt="Red Chevy C10"/>
+                        </Zoom>
+                    </Col>
+                </Row>
                
             </Container>
     )
