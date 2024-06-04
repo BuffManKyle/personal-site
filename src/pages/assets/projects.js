@@ -39,16 +39,18 @@ import Watertown from './images/Zhejiang-water-town.png';
 import Train from './images/train.png';
 import Duck from './images/duck.jpg';
 import Pond from './images/pond.jpg';
-import ParkBridge from './images/parkbridge.jpg';
 import Pier01 from './images/pier01.jpg';
-import Cords from './images/cords.jpg';
 import Rock from './images/rock.jpg';
 import Flowers from './images/flowers.jpg';
 import Sky from './images/sky.jpg';
-import Car01 from './images/car01.jpg';
 import Car02 from './images/car02.jpg';
-import Car03 from './images/car03.jpg';
-import Car04 from './images/car04.jpg';
+import Mountainfield from './images/MountainFields.jpg'
+import JBFerrari from './images/JBFerrari.jpg'
+import NSX from './images/NSX.jpg'
+import Baybridge from './images/BayBridge.jpg'
+import Merc01 from './images/Merc01.jpg'
+import Bronco from './images/Bronco.jpg'
+import Field01 from './images/Field01.jpg'
 
 function Website1() {
     return (
@@ -326,15 +328,13 @@ function Aiartwork() {
                         <img className="d-block w-75 mx-auto Tab-image" src={Train } alt="Blender Pier"/>
                     </Col>
                 </Row>
-
-               
             </Container>
     )
 }
 
 function Photography() {
     return (
-            <Container className="Tab-AI-art Tab">
+            <Container className="Tab-AI-art Tab photography-portfolio">
                 <Row>
                     <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
                         <h2 className="Tab-heading">Just some pictures</h2>
@@ -349,19 +349,19 @@ function Photography() {
                     
                         <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
                             <h2 className="Tab-heading">Just some pictures</h2>
-                                <p className="Tab-content">Shot on iPhone 13 and edited with Lightroom</p>
+                            <p className="Tab-content">Shot on iPhone 13 and edited with Lightroom</p>
                         </Col>
                     
                 </Row>
                 <Row>
                     <Col sm={6} lg={6}>
                         <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Car01 } alt="Red Porsche and BMW"/>
+                            <img className="d-block w-100 mx-auto Tab-image" src={JBFerrari } alt="Ferrari"/>
                         </Zoom>
                     </Col>
                     <Col sm={6} lg={6}>
                         <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Car03 } alt="Blue Audi"/>
+                        <img className="d-block w-100 mx-auto Tab-image" src={Sky } alt="It is blue with white clouds"/>
                         </Zoom>
                     </Col>
                 </Row>
@@ -391,39 +391,49 @@ function Photography() {
                         </Zoom>
                     </Col>
                 </Row>
-                
-                <Row>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Sky } alt="It is blue with white clouds"/>
-                        </Zoom>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Cords} alt="Coordanites end of pier"/>
-                        </Zoom>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={ParkBridge } alt="Brookside Gardens Bridge"/>
-                        </Zoom>
-                    </Col>
-                </Row>
-                
 
                 <Row>
-                    <Col sm={6} lg={6}>
+                    <Col sm={4} lg={4}>
                         <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Car04 } alt="White BMW"/>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Merc01 } alt="Mercades"/>
                         </Zoom>
                     </Col>
-                    <Col sm={6} lg={6}>
+                    <Col sm={4} lg={4}>
                         <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Car02 } alt="Red Chevy C10"/>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Mountainfield} alt="Blue Ridge Parkway"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={NSX } alt="NSX"/>
                         </Zoom>
                     </Col>
                 </Row>
-               
+                
+                <Row>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Bronco } alt="Maryland Bay Bridge from Kent Island"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Field01 } alt="Red Chevy C10"/>
+                        </Zoom>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Car02} alt="Blue Ridge Parkway"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Baybridge } alt="NSX"/>
+                        </Zoom>
+                    </Col>
+                </Row>
             </Container>
     )
 }

@@ -57,6 +57,10 @@
 
 .Tab{
     border-radius: 5px;
+    float:left; 
+    width:100%; 
+    overflow-y: auto; 
+    height: 875px;
 }
 
 .Tab-410{
@@ -98,3 +102,8 @@
     color: #fff;
 }
 
+/* Scroll bar for photography section */
+
+.photography-portfolio{
+
+}
