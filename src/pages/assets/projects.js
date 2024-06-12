@@ -51,6 +51,13 @@ import Baybridge from './images/BayBridge.jpg'
 import Merc01 from './images/Merc01.jpg'
 import Bronco from './images/Bronco.jpg'
 import Field01 from './images/Field01.jpg'
+import Waterwheel from './images/Waterwheel.jpg'
+import SunriseGolden from './images/SunriseGolden.jpg'
+import LandscapeGeorgetown from './images/LandscapeGeorgetown.jpg'
+import FlowersIdahoFalls from './images/FlowersIdahoFalls.jpg'
+import CannonIdahoFalls from './images/CannonIdahoFalls.jpg'
+
+
 
 function Website1() {
     return (
@@ -354,14 +361,31 @@ function Photography() {
                     
                 </Row>
                 <Row>
+                    <Col sm={4} lg={4}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={CannonIdahoFalls } alt="Cannon in Idaho Falls"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={Waterwheel } alt="Water Wheel Idaho Falls"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={4} lg={4}>
+                        <Zoom>
+                           <img className="d-block w-100 mx-auto Tab-image" src={LandscapeGeorgetown } alt="Landscape in Georgetown"/> 
+                        </Zoom>
+                    </Col>
+                </Row>
+                <Row>
                     <Col sm={6} lg={6}>
                         <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={JBFerrari } alt="Ferrari"/>
+                            <img className="d-block w-100 mx-auto Tab-image" src={SunriseGolden } alt="Golden Colorado Sunrise"/>
                         </Zoom>
                     </Col>
                     <Col sm={6} lg={6}>
                         <Zoom>
-                        <img className="d-block w-100 mx-auto Tab-image" src={Sky } alt="It is blue with white clouds"/>
+                        <img className="d-block w-100 mx-auto Tab-image" src={FlowersIdahoFalls } alt="Flowers in Idaho Falls"/>
                         </Zoom>
                     </Col>
                 </Row>
@@ -374,7 +398,7 @@ function Photography() {
                     </Col>
                     <Col sm={4} lg={4}>
                         <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Rock } alt="Brighton Dam Azalea Garden Reservoir"/>
+                        <img className="d-block w-100 mx-auto Tab-image" src={Mountainfield} alt="Blue Ridge Parkway"/>
                         </Zoom>
                     </Col>
                     <Col sm={4} lg={4}>
@@ -383,7 +407,20 @@ function Photography() {
                         </Zoom>
                     </Col>
                 </Row>
-
+                
+                <Row>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                        <img className="d-block w-100 mx-auto Tab-image" src={Rock } alt="Brighton Dam Azalea Garden Reservoir"/>
+                            
+                        </Zoom>
+                    </Col>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                        <img className="d-block w-100 mx-auto Tab-image" src={Sky } alt="It is blue with white clouds"/>
+                        </Zoom>
+                    </Col>
+                </Row>
                 <Row className="justify-content-center">
                     <Col sm={12} lg={8}>
                         <Zoom>
@@ -400,7 +437,7 @@ function Photography() {
                     </Col>
                     <Col sm={4} lg={4}>
                         <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={Mountainfield} alt="Blue Ridge Parkway"/>
+                            <img className="d-block w-100 mx-auto Tab-image" src={JBFerrari } alt="Ferrari"/>
                         </Zoom>
                     </Col>
                     <Col sm={4} lg={4}>
