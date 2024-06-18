@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*Class Selectors*/
+/*Master Class Selectors*/
 
 .Body-css{
     background-color: #333333;
@@ -83,6 +83,16 @@
                 0 1px 10px 0 #86A8E7,
                 0 1px 11px 0 #5FFBF1;
     
+}
+
+/*Blog Page Selectors*/
+
+.blog-header{
+    padding-top: 3%;
+}
+
+.blog-body{
+
 }
 /*Element Selectors*/
 
