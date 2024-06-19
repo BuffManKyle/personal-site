@@ -1,6 +1,6 @@
 import './App.css';
 import './pages/styles.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
