@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import './pages/styles.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import './styles.css'
+import './styles.css';
 import React from "react";
 import Portfolio from '../pages/portfolio';
 import About from '../pages/about';
