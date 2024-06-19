@@ -1,53 +1,63 @@
 import './App.css';
 import './pages/styles.css';
-import {useLocation} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Skills from './pages/skills';
 import Contact from './pages/contact';
-import Blog from './pages/blog'
+import Blog from './pages/blog';
 import Header from './pages/partials/header';
 import Footer from './pages/partials/footer';
-
 
 function MainPage() {
   return (
     <div className='Body-css'>
       <Header />
-        
-          <div className='sections' id="home"  > <Home /></div>
-        
-        <Slide left>
-          <div className='sections' id="portfolio" > <Portfolio /> </div>
-        </Slide>
+      
+      <div className='sections' id="home"><Home /></div>
 
-        <Slide right>
-          <div className='sections' id="about"> <About /> </div>
-        </Slide>
+      <Slide left>
+        <div className='sections' id="portfolio"><Portfolio /></div>
+      </Slide>
 
-        <Slide left>
-          <div className='sections' id="skills"> <Skills /> </div>
-        </Slide>
+      <Slide right>
+        <div className='sections' id="about"><About /></div>
+      </Slide>
 
-        <Slide right>
-          <div className='sections' id="contact"> <Contact /> </div>
-        </Slide>
+      <Slide left>
+        <div className='sections' id="skills"><Skills /></div>
+      </Slide>
+
+      <Slide right>
+        <div className='sections' id="contact"><Contact /></div>
+      </Slide>
 
         <Footer />
-      </div>
+    </div>
+  );
+}
+
+function BlogPage() {
+  return (
+    <div className='Body-css'>
+      
+      <div className='sections' id="blog"><Blog /></div>
+      
+    </div>
   );
 }
 
 function App() {
-  const location = useLocation();
-  
-  if (location.pathname === '/blog') {
-    return <Blog />;
-  }
-
-  return <MainPage />;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/" element={<MainPage />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
