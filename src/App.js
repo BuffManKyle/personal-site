@@ -8,8 +8,8 @@ import Home from './pages/home';
 function App() {
   return (
       <Routes>
-        <Route path="/test" element={<Home />} />
-        <Route path="/" element={<Blog />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
   );
 }
