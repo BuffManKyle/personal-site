@@ -10,7 +10,7 @@ import Contact from './pages/contact';
 import Blog from './pages/blog';
 import Header from './pages/partials/header';
 import Footer from './pages/partials/footer';
-import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import {Nav} from 'react-bootstrap';
 
 function MainPage() {
   return (
