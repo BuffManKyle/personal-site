@@ -1,6 +1,6 @@
 import './App.css';
 import './pages/styles.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
@@ -10,6 +10,7 @@ import Contact from './pages/contact';
 import Blog from './pages/blog';
 import Header from './pages/partials/header';
 import Footer from './pages/partials/footer';
+import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 function MainPage() {
   return (
@@ -33,7 +34,7 @@ function MainPage() {
       <Slide right>
         <div className='sections' id="contact"><Contact /></div>
       </Slide>
-
+      <Nav.Link href="/blog" >Home</Nav.Link>
         <Footer />
     </div>
   );
