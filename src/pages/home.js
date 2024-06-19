@@ -62,7 +62,7 @@ class TypingEffect extends React.Component {
   }
 function Home() {
     return (
-                <div>
+                <div className='Body-css'>
                   <Header />
                 <Container fluid>
                     <div className="backlight-section">
