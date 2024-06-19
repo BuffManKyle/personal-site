@@ -2,7 +2,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from 'react-bootstrap';
 import './styles.css'
 import React from "react";
-
+import Portfolio from '../pages/portfolio';
+import About from '../pages/about';
+import Skills from '../pages/skills';
+import Contact from '../pages/contact';
+import Header from '../pages/partials/header';
+import Footer from '../pages/partials/footer';
+import {Nav} from 'react-bootstrap';
+import Slide from 'react-reveal/Slide';
 
 class TypingEffect extends React.Component {
     state = {
@@ -55,6 +62,8 @@ class TypingEffect extends React.Component {
   }
 function Home() {
     return (
+                <div>
+                  <Header />
                 <Container fluid>
                     <div className="backlight-section">
                         <Container >
@@ -76,8 +85,28 @@ function Home() {
                             </Row>
                         </Container>
                     </div>
+                    <div className='Body-css'>
+                      <Slide left>
+                        <div className='sections' id="portfolio"><Portfolio /></div>
+                      </Slide>
+
+                      <Slide right>
+                        <div className='sections' id="about"><About /></div>
+                      </Slide>
+
+                      <Slide left>
+                        <div className='sections' id="skills"><Skills /></div>
+                      </Slide>
+
+                      <Slide right>
+                        <div className='sections' id="contact"><Contact /></div>
+                      </Slide>
+                      <Nav.Link href="/blog" >Test Link</Nav.Link>
+                        <Footer />
+                    </div>
                 </Container>
-                
+              
+                </div>
     );
 }
 
