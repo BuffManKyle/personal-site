@@ -18,16 +18,16 @@ function Resume() {
                             </Col>
                             <Col className="text-center shadows p-3 mb-5 rounded"  sm={12} lg={5}>
                                 <h3>Programing Languages and Frameworks</h3>
-                                <h5 className="skill-list">JavaScript, CSS, HTML, Nodejs, Python, React, Express.js, Bootstrap</h5>
+                                <h5 className="skill-list">JavaScript, CSS, HTML, Nodejs, React, Express.js, Bootstrap</h5>
                             </Col>
                             <Col className="text-center shadows p-3 mb-5 rounded"  sm={12} lg={5}>
                                 <h3>Programs</h3>
-                                <h5 className="skill-list">Amazon Web Services (AWS), EC2, Git, GitHub, Microsoft Office, WordPress, WooCommerce </h5>
+                                <h5 className="skill-list">Git, GitHub, Microsoft Office, WordPress, Azure, Active Directory, VSA X, Apple Business Manager </h5>
                             </Col>
                             <Col className="text-center shadows p-3 mb-5 rounded" sm={12} lg={5}>
                                 <h3>Certifications</h3>
                                 <h5 className="skill-list">CompTIA A+ Certification</h5>
-                                <h5 className="skill-list">Certified ScrumMaster (CSM) – Scrum Alliance</h5>
+                                <h5 className="skill-list">Kaseya Certified Administrator in VSA 10</h5>
                             </Col>
                         </Row>
                     </Container>

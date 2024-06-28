@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDoorOpen } from '@fortawesome/free-solid-svg-icons'
 import { Container, Row, Col, Tab, Nav, Card } from 'react-bootstrap';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Aiartwork, Website1, Website2, Website3, Website4, Photography } from './assets/projects';
+import {Website1, Website2, Website3, Website4, Photography } from './assets/projects';
 
 function Portfolio() {
 
@@ -14,21 +14,21 @@ function Portfolio() {
     const [show3, setShow3] = useState(false);
     const [show4, setShow4] = useState(false);
     const [show5, setShow5] = useState(false);
-    const [show6, setShow6] = useState(false);
+    /*const [show6, setShow6] = useState(false);*/
 
     const handleClose1 = () => setShow1(false);
     const handleClose2 = () => setShow2(false);
     const handleClose3 = () => setShow3(false);
     const handleClose4 = () => setShow4(false);
     const handleClose5 = () => setShow5(false);
-    const handleClose6 = () => setShow6(false);
+    /*const handleClose6 = () => setShow6(false);*/
 
     const handleShow1 = () => setShow1(true);
     const handleShow2 = () => setShow2(true);
     const handleShow3 = () => setShow3(true);
     const handleShow4 = () => setShow4(true);
     const handleShow5 = () => setShow5(true);
-    const handleShow6 = () => setShow6(true);
+    /*const handleShow6 = () => setShow6(true);*/
 
     return (
         <Container fluid>
@@ -55,9 +55,9 @@ function Portfolio() {
                                         <Nav.Item className="Nav-tab">
                                         <Nav.Link eventKey="fifth">Photography</Nav.Link>
                                         </Nav.Item>
-                                        <Nav.Item className="Nav-tab">
+                                        {/*<Nav.Item className="Nav-tab">
                                         <Nav.Link eventKey="sixth">AI Artwork</Nav.Link>
-                                        </Nav.Item>
+                                        </Nav.Item>*/}
                                     </Nav>
                                 </Col>
                                 <Col sm={9}>
@@ -77,9 +77,9 @@ function Portfolio() {
                                         <Tab.Pane eventKey="fifth">
                                         <Photography />
                                         </Tab.Pane>
-                                        <Tab.Pane eventKey="sixth">
+                                        {/*<Tab.Pane eventKey="sixth">
                                         <Aiartwork />
-                                        </Tab.Pane>
+                                        </Tab.Pane>*/}
                                     </Tab.Content>
                                 </Col>
                             </Row>
@@ -171,7 +171,7 @@ function Portfolio() {
                     </Offcanvas.Body>
                 </Offcanvas>
 
-                <Nav variant="pills" className="flex-column" onClick={handleShow6} >
+                 {/* <Nav variant="pills" className="flex-column" onClick={handleShow6} >
                         <Nav.Item className="Nav-tab">
                         <Nav.Link >AI Artwork</Nav.Link>
                         </Nav.Item>
@@ -185,7 +185,7 @@ function Portfolio() {
                     <Offcanvas.Body>
                     <Aiartwork/>
                     </Offcanvas.Body>
-                </Offcanvas>
+                </Offcanvas> */}
             </div>
 
         </Container>
