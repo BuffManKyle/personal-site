@@ -56,7 +56,12 @@ import SunriseGolden from './images/SunriseGolden.jpg'
 import LandscapeGeorgetown from './images/LandscapeGeorgetown.jpg'
 import FlowersIdahoFalls from './images/FlowersIdahoFalls.jpg'
 import CannonIdahoFalls from './images/CannonIdahoFalls.jpg'
-
+import SunsetBoat from './images/SunsetBoat.jpg'
+import SunsetRocks from './images/SunsetRocks.jpg'
+import KentIslandCars from './images/KentIslandCars.jpg'
+import S2000 from './images/S2000.jpg'
+import OrangeDayLily from './images/OrangeDayLily.jpg'
+import Petunia from './images/Petunia.jpg'
 
 
 function Website1() {
@@ -343,22 +348,23 @@ function Photography() {
     return (
             <Container className="Tab-AI-art Tab photography-portfolio">
                 <Row>
-                    <Col sm={12} lg={3} className="Tab-content hide-on-desktop">
-                        <h2 className="Tab-heading">Just some pictures</h2>
-                        <p className="Tab-content"></p>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 Tab-image" src={SunsetRocks } alt="Sunset at Quiet Waters park"/>
+                        </Zoom>
                     </Col>
-
-                    <Col sm={12} lg={8}>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 Tab-image" src={SunsetBoat } alt="Sunset through boat"/>
+                        </Zoom>
+                    </Col>
+                </Row>
+                <Row className="justify-content-center">
+                    <Col sm={10} lg={10}>
                         <Zoom>
                             <img className="d-block w-100 Tab-image" src={Pond } alt="Brookside Gardens Park"/>
                         </Zoom>
                     </Col>
-                    
-                        <Col sm={12} lg={3} className="Tab-content hide-on-mobile">
-                            <h2 className="Tab-heading">Just some pictures</h2>
-                            <p className="Tab-content">Shot on iPhone 13 and edited with Lightroom</p>
-                        </Col>
-                    
                 </Row>
                 <Row>
                     <Col sm={4} lg={4}>
@@ -407,7 +413,19 @@ function Photography() {
                         </Zoom>
                     </Col>
                 </Row>
-                
+                <Row>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                        <img className="d-block w-100 mx-auto Tab-image" src={OrangeDayLily } alt="Orange Day-Lily"/>
+                            
+                        </Zoom>
+                    </Col>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                        <img className="d-block w-100 mx-auto Tab-image" src={Petunia } alt="Petunia"/>
+                        </Zoom>
+                    </Col>
+                </Row>
                 <Row>
                     <Col sm={6} lg={6}>
                         <Zoom>
@@ -428,7 +446,18 @@ function Photography() {
                         </Zoom>
                     </Col>
                 </Row>
-
+                <Row>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={KentIslandCars } alt="Kent Island Cult Classic car show"/>
+                        </Zoom>
+                    </Col>
+                    <Col sm={6} lg={6}>
+                        <Zoom>
+                            <img className="d-block w-100 mx-auto Tab-image" src={S2000 } alt="S2000 at Cult Classic car show"/>
+                        </Zoom>
+                    </Col>
+                </Row>
                 <Row>
                     <Col sm={4} lg={4}>
                         <Zoom>
