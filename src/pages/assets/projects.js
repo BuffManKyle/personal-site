@@ -62,6 +62,7 @@ import KentIslandCars from './images/KentIslandCars.jpg'
 import S2000 from './images/S2000.jpg'
 import OrangeDayLily from './images/OrangeDayLily.jpg'
 import Petunia from './images/Petunia.jpg'
+import Newyorksunrise from './images/Newyorksunrise.jpg'
 
 
 function Website1() {
@@ -347,6 +348,13 @@ function Aiartwork() {
 function Photography() {
     return (
             <Container className="Tab-AI-art Tab photography-portfolio">
+                <Row className="justify-content-center">
+                    <Col sm={10} lg={10}>
+                        <Zoom>
+                            <img className="d-block w-100 Tab-image" src={Newyorksunrise } alt="Brookyln Bridge sunrise"/>
+                        </Zoom>
+                    </Col>
+                </Row>
                 <Row>
                     <Col sm={6} lg={6}>
                         <Zoom>
