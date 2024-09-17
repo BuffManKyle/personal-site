@@ -364,77 +364,7 @@ function Aiartwork() {
 function Photography() {
     return (
             <Container className="Tab-AI-art Tab photography-portfolio">
-                <Row>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={OrangeBMW } alt="OrangeBMW"/>
-                        </Zoom>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={OrangeBMWe } alt="OrangeBMW"/>
-                        </Zoom>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={OrangeBMWd } alt="Ferrari"/>
-                        </Zoom>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm={6} lg={6}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={OrangeBMWf } alt="OrangeBMW"/>
-                       </Zoom>
-                    </Col>
-                    <Col sm={6} lg={6}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={PorscheLED } alt="PorscheLED"/>
-                        </Zoom>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm={6} lg={6}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={YellowPorsche } alt="YellowPorsche"/>
-                       </Zoom>
-                    </Col>
-                    <Col sm={6} lg={6}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={RS } alt="RS"/>
-                        </Zoom>
-                    </Col>
-                </Row>
-                <Row>
-                    
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={ViennaFerrari } alt="ViennaFerrari"/>
-                        </Zoom>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={BelederePalace } alt="BelederePalace"/>
-                        </Zoom>
-                    </Col>
-                    <Col sm={4} lg={4}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={ViennaStreet } alt="ViennaStreet"/>
-                        </Zoom>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm={6} lg={6}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={IcelandBoat } alt="IcelandBoat"/>
-                       </Zoom>
-                    </Col>
-                    <Col sm={6} lg={6}>
-                        <Zoom>
-                            <img className="d-block w-100 mx-auto Tab-image" src={IcelandCrane } alt="IcelandCrane"/>
-                        </Zoom>
-                    </Col>
-                </Row>
+                
                 <Row>
                     <Col sm={4} lg={4}>
                         <Zoom>
