@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col, Container } from 'react-bootstrap';
-
+import "./footer.css"
 
 function Footer() {
     return(
