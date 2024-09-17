@@ -85,15 +85,6 @@
     
 }
 
-/*Blog Page Selectors*/
-
-.blog-header{
-    padding-top: 3%;
-}
-
-.blog-body{
- color: #fff;
-}
 /*Element Selectors*/
 
 h1{
@@ -136,7 +127,7 @@ h5{
 }
 
 p{
-    color: #fff;
+    color: #fff !important;
 }
 
 hr{

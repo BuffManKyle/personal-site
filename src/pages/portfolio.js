@@ -155,7 +155,7 @@ function Portfolio() {
                 </Offcanvas>
 
 
-                <Nav variant="pills" className="flex-column" onClick={handleShow5} >
+                {/*<Nav variant="pills" className="flex-column" onClick={handleShow5} >
                         <Nav.Item className="Nav-tab">
                         <Nav.Link >Photography</Nav.Link>
                         </Nav.Item>
