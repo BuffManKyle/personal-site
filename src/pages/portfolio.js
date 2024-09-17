@@ -13,21 +13,21 @@ function Portfolio() {
     const [show2, setShow2] = useState(false);
     const [show3, setShow3] = useState(false);
     const [show4, setShow4] = useState(false);
-    /*const [show5, setShow5] = useState(false);
+    const [show5, setShow5] = useState(false);
     /*const [show6, setShow6] = useState(false);*/
 
     const handleClose1 = () => setShow1(false);
     const handleClose2 = () => setShow2(false);
     const handleClose3 = () => setShow3(false);
     const handleClose4 = () => setShow4(false);
-    /*const handleClose5 = () => setShow5(false);
+    const handleClose5 = () => setShow5(false);
     /*const handleClose6 = () => setShow6(false);*/
 
     const handleShow1 = () => setShow1(true);
     const handleShow2 = () => setShow2(true);
     const handleShow3 = () => setShow3(true);
     const handleShow4 = () => setShow4(true);
-    /*const handleShow5 = () => setShow5(true);
+    const handleShow5 = () => setShow5(true);
     /*const handleShow6 = () => setShow6(true);*/
 
     return (
@@ -155,7 +155,7 @@ function Portfolio() {
                 </Offcanvas>
 
 
-                {/*<Nav variant="pills" className="flex-column" onClick={handleShow5} >
+                <Nav variant="pills" className="flex-column" onClick={handleShow5} >
                         <Nav.Item className="Nav-tab">
                         <Nav.Link >Photography</Nav.Link>
                         </Nav.Item>
