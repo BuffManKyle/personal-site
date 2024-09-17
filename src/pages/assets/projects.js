@@ -64,21 +64,10 @@ import S2000 from './images/S2000.jpg'
 import OrangeDayLily from './images/OrangeDayLily.jpg'
 import Petunia from './images/Petunia.jpg'
 import Newyorksunrise from './images/Newyorksunrise.jpg'
-import YellowPorsche from './images/YellowPorsche.jpg'
-import OrangeBMW from './images/OrangeBMW.jpg'
-import OrangeBMWd from './images/OrangeBMWd.jpg'
-import OrangeBMWe from './images/OrangeBMWe.jpg'
-import OrangeBMWf from './images/OrangeBMWf.jpg'
-import PorscheLED from './images/PorscheLED.jpg'
-import RS from './images/RS.jpg'
-import ViennaStreet from './images/ViennaStreet.jpg'
-import ViennaFerrari from './images/VienaFerrari.jpg'
 import Prague from './images/Prague.jpg'
 import PragueStreet from './images/PragueStreet.jpg'
 import Poilice from './images/Policie.jpg'
-import BelederePalace from './images/BelvederePalace.jpg'
-import IcelandCrane from './images/IcelandCrane.jpg'
-import IcelandBoat from './images/IcelandBoat.jpg'
+
 
 
 function Website1() {
